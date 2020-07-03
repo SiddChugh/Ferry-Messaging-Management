@@ -1,0 +1,5 @@
+SOURCE_FILE += messageQueue.c
+SIMULATION_EXECUTABLE = messageQueue
+
+all:
+  $(CC) -o $(SIMULATION_EXECUTABLE) $(SOURCE_FILE)
